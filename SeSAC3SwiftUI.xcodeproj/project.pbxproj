@@ -14,6 +14,8 @@
 		EDA6204F2B01A871002E4915 /* SeSAC3SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6204E2B01A871002E4915 /* SeSAC3SwiftUITests.swift */; };
 		EDA620592B01A871002E4915 /* SeSAC3SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA620582B01A871002E4915 /* SeSAC3SwiftUIUITests.swift */; };
 		EDA6205B2B01A871002E4915 /* SeSAC3SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6205A2B01A871002E4915 /* SeSAC3SwiftUIUITestsLaunchTests.swift */; };
+		EDA620682B01B962002E4915 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA620672B01B962002E4915 /* MenuView.swift */; };
+		EDA6206A2B01C898002E4915 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA620692B01C898002E4915 /* RenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EDA620542B01A871002E4915 /* SeSAC3SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeSAC3SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA620582B01A871002E4915 /* SeSAC3SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSAC3SwiftUIUITests.swift; sourceTree = "<group>"; };
 		EDA6205A2B01A871002E4915 /* SeSAC3SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSAC3SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDA620672B01B962002E4915 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EDA620692B01C898002E4915 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				EDA6203D2B01A86F002E4915 /* SeSAC3SwiftUIApp.swift */,
 				EDA6203F2B01A86F002E4915 /* ContentView.swift */,
+				EDA620672B01B962002E4915 /* MenuView.swift */,
+				EDA620692B01C898002E4915 /* RenderView.swift */,
 				EDA620412B01A871002E4915 /* Assets.xcassets */,
 				EDA620432B01A871002E4915 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA620402B01A86F002E4915 /* ContentView.swift in Sources */,
+				EDA620682B01B962002E4915 /* MenuView.swift in Sources */,
+				EDA6206A2B01C898002E4915 /* RenderView.swift in Sources */,
 				EDA6203E2B01A86F002E4915 /* SeSAC3SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +438,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

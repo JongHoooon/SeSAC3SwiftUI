@@ -11,7 +11,9 @@ import SwiftUI
 struct SeSAC3SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            MenuView()
+            RenderView()
         }
     }
 }
