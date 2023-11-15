@@ -16,6 +16,8 @@
 		EDA6205B2B01A871002E4915 /* SeSAC3SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6205A2B01A871002E4915 /* SeSAC3SwiftUIUITestsLaunchTests.swift */; };
 		EDA620682B01B962002E4915 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA620672B01B962002E4915 /* MenuView.swift */; };
 		EDA6206A2B01C898002E4915 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA620692B01C898002E4915 /* RenderView.swift */; };
+		EDFB97F22B03071200E504B8 /* TamagochiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB97F12B03071200E504B8 /* TamagochiView.swift */; };
+		EDFB982D2B03379900E504B8 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB982C2B03379900E504B8 /* MovieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		EDA6205A2B01A871002E4915 /* SeSAC3SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSAC3SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EDA620672B01B962002E4915 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		EDA620692B01C898002E4915 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
+		EDFB97F12B03071200E504B8 /* TamagochiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiView.swift; sourceTree = "<group>"; };
+		EDFB982C2B03379900E504B8 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				EDA6203D2B01A86F002E4915 /* SeSAC3SwiftUIApp.swift */,
 				EDA6203F2B01A86F002E4915 /* ContentView.swift */,
 				EDA620672B01B962002E4915 /* MenuView.swift */,
+				EDFB982C2B03379900E504B8 /* MovieView.swift */,
+				EDFB97F32B03155900E504B8 /* Tamagochi */,
 				EDA620692B01C898002E4915 /* RenderView.swift */,
 				EDA620412B01A871002E4915 /* Assets.xcassets */,
 				EDA620432B01A871002E4915 /* Preview Content */,
@@ -131,6 +137,14 @@
 				EDA6205A2B01A871002E4915 /* SeSAC3SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = SeSAC3SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		EDFB97F32B03155900E504B8 /* Tamagochi */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB97F12B03071200E504B8 /* TamagochiView.swift */,
+			);
+			path = Tamagochi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA620402B01A86F002E4915 /* ContentView.swift in Sources */,
+				EDFB982D2B03379900E504B8 /* MovieView.swift in Sources */,
+				EDFB97F22B03071200E504B8 /* TamagochiView.swift in Sources */,
 				EDA620682B01B962002E4915 /* MenuView.swift in Sources */,
 				EDA6206A2B01C898002E4915 /* RenderView.swift in Sources */,
 				EDA6203E2B01A86F002E4915 /* SeSAC3SwiftUIApp.swift in Sources */,
