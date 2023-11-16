@@ -62,7 +62,7 @@ struct RenderView: View {
                     Text("KoKo: \(age) \(Int.random(in: 1...100))")
                     Button("클릭") {
                         age = Int.random(in: 1...100)
-                        print("age: \(age)")
+//                        print("age: \(age)")
                     }
                 }
             .navigationTitle("Render View")

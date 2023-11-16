@@ -15,7 +15,8 @@ struct SeSAC3SwiftUIApp: App {
 //            MenuView()
 //            RenderView()
 //            TamagochiView()
-            MovieView()
+//            MovieView()
+            PosterView()
         }
     }
 }

@@ -18,6 +18,11 @@
 		EDA6206A2B01C898002E4915 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA620692B01C898002E4915 /* RenderView.swift */; };
 		EDFB97F22B03071200E504B8 /* TamagochiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB97F12B03071200E504B8 /* TamagochiView.swift */; };
 		EDFB982D2B03379900E504B8 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB982C2B03379900E504B8 /* MovieView.swift */; };
+		EDFB98312B044CA000E504B8 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB98302B044CA000E504B8 /* TransitionView.swift */; };
+		EDFB98332B04500C00E504B8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB98322B04500C00E504B8 /* CategoryView.swift */; };
+		EDFB98862B045BB800E504B8 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB98852B045BB800E504B8 /* PosterView.swift */; };
+		EDFB98882B046F4F00E504B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB98872B046F4F00E504B8 /* HomeView.swift */; };
+		EDFB988A2B0471CF00E504B8 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB98892B0471CF00E504B8 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		EDA620692B01C898002E4915 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
 		EDFB97F12B03071200E504B8 /* TamagochiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiView.swift; sourceTree = "<group>"; };
 		EDFB982C2B03379900E504B8 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		EDFB98302B044CA000E504B8 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		EDFB98322B04500C00E504B8 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		EDFB98852B045BB800E504B8 /* PosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
+		EDFB98872B046F4F00E504B8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EDFB98892B0471CF00E504B8 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				EDA6203F2B01A86F002E4915 /* ContentView.swift */,
 				EDA620672B01B962002E4915 /* MenuView.swift */,
 				EDFB982C2B03379900E504B8 /* MovieView.swift */,
+				EDFB98302B044CA000E504B8 /* TransitionView.swift */,
+				EDFB98322B04500C00E504B8 /* CategoryView.swift */,
+				EDFB98852B045BB800E504B8 /* PosterView.swift */,
+				EDFB98872B046F4F00E504B8 /* HomeView.swift */,
+				EDFB98892B0471CF00E504B8 /* StartView.swift */,
 				EDFB97F32B03155900E504B8 /* Tamagochi */,
 				EDA620692B01C898002E4915 /* RenderView.swift */,
 				EDA620412B01A871002E4915 /* Assets.xcassets */,
@@ -278,11 +293,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA620402B01A86F002E4915 /* ContentView.swift in Sources */,
+				EDFB988A2B0471CF00E504B8 /* StartView.swift in Sources */,
 				EDFB982D2B03379900E504B8 /* MovieView.swift in Sources */,
 				EDFB97F22B03071200E504B8 /* TamagochiView.swift in Sources */,
+				EDFB98882B046F4F00E504B8 /* HomeView.swift in Sources */,
+				EDFB98312B044CA000E504B8 /* TransitionView.swift in Sources */,
 				EDA620682B01B962002E4915 /* MenuView.swift in Sources */,
 				EDA6206A2B01C898002E4915 /* RenderView.swift in Sources */,
+				EDFB98332B04500C00E504B8 /* CategoryView.swift in Sources */,
 				EDA6203E2B01A86F002E4915 /* SeSAC3SwiftUIApp.swift in Sources */,
+				EDFB98862B045BB800E504B8 /* PosterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
