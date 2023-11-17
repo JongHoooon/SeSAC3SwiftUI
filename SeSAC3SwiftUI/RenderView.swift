@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct RenderView: View {
-    @State
-    var age = 10
+    
+    // 시스템에서 정의된 값을 감지하고 뷰를 업데이트 할 수 있음
+//    @Environment(\.presentationMode) var presentationMode
+    @Environment(\.dismiss) var dismiss
+    @Environment(\.colorScheme) var colorScheme
+    
+    @State var age = 10
+    
+    init(age: Int = 10) {
+        self.age = age
+        print("Render View Init")
+    }
     
     var bran: some View {
         Text("Bran: \(Int.random(in: 1...100))")
@@ -18,7 +28,6 @@ struct RenderView: View {
     var body: some View {
         NavigationView {
                 VStack {
-                    
                     HStack {
                         RoundedRectangle(cornerRadius: 30.0)
                             .fill(LinearGradient(
@@ -49,7 +58,7 @@ struct RenderView: View {
                                     angle: .degrees(90.0)
                                 ))
                     }
-                    .frame(width: .infinity, height: 100)
+                    .frame(height: 100)
                     
                     NavigationLink("push") {
                         MenuView()
@@ -58,11 +67,18 @@ struct RenderView: View {
                     
                     Text("Hue: \(age) \(Int.random(in: 1...100))")
                     KokoView()
+                    Button(colorScheme == .dark ? "다크모드 클릭" : "라이트모드 클릭") {
+                        dismiss.callAsFunction()
+                    }
+                    .background(colorScheme == .dark ? .white : .yellow)
+                    .foregroundStyle(colorScheme == .dark ? .white : .yellow)
+                    
                     bran
                     Text("KoKo: \(age) \(Int.random(in: 1...100))")
                     Button("클릭") {
-                        age = Int.random(in: 1...100)
+//                        age = Int.random(in: 1...100)
 //                        print("age: \(age)")
+                        dismiss.callAsFunction()
                     }
                 }
             .navigationTitle("Render View")

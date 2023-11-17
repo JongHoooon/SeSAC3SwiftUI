@@ -43,10 +43,16 @@ struct CategoryView: View {
 //                    .font(.title)
 //            })
             
-            ForEach(category, content: { item in
-                Text("\(item.name) \(item.count) 안녕하세요")
-                    .font(.title)
-            })
+//            ForEach(
+//                category,
+//                content: { item in
+//                    Text("\(item.name) \(item.count) 안녕하세요")
+//                        .font(.title)
+//                }
+//            )
+            
+//            ForEach(category) { item in
+//            }di
         }
     }
 }

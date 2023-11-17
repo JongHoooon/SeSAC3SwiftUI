@@ -20,9 +20,10 @@ struct PosterView: View {
             LazyVStack {
                 ForEach(0..<50) { item in
                     AsyncImageView()
+                        .frame(width: 100.0, height: 100.0)
                         .onTapGesture {
                             print("\(item)")
-                            isPresented = true
+                            isPresented.toggle()
                         }
                 }
             }
@@ -40,7 +41,7 @@ struct PosterView: View {
 }
 
 struct AsyncImageView: View {
-    let url = URL(string: "https://picsum.photos/200")
+    let url = URL(string: "https://picsum.photos/100")
     var body: some View {
 //        AsyncImage(url: url)
 //        AsyncImage(
@@ -65,7 +66,7 @@ struct AsyncImageView: View {
             case .success(let image):
                 image
                     .scaledToFit()
-                    .frame(width: 100.0, height: 100.0)
+//                    .frame(width: 100.0, height: 100.0)
                     .clipShape(RoundedRectangle(cornerRadius: 10.0))
             case .failure(_):
 //                print(error.localizedDescription)
@@ -74,7 +75,6 @@ struct AsyncImageView: View {
                 Image(systemName: "start")
             }
         }
-        .frame(width: 100.0, height: 100.0)
         .background(.red)
     }
 }
